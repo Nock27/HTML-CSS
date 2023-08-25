@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        p{
+            font-size: 17px;
+            line-height: 1.2px;
+        }
+        .big-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px;
+            width: 450px;
+            border: solid;
+            border-width: 0.5px;
+            border-color: gainsboro;
+        }
+        .parent-div{
+            width: 430px;
+            
+            
+        }
+        .flex-div{
+            display: flex;
+            justify-content: space-between;
+            height: 20px;
+            width: 340px;
+        }
+
+        .inbox-text{
+            padding-top: 8px;
+            padding-left: 8px;
+            font-size: 12px;
+            color: rgb(124, 124, 124);
+            margin-bottom: 20px;
+        }
+        .title-text{
+            font-weight: bold;
+        }
+        .under-title-text{
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .message-text{
+            color: rgb(176, 176, 176);
+            font-size: 16px;
+        }
+        span{
+            font-size: 15px;
+            color: gray;
+            font-weight: normal;
+            margin-left: 100px;
+        }
+
+        .profile-div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+        }
+        .profile{
+            margin-bottom: 10px;
+        }
+       
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            margin-right: 8px;
+            object-fit: fill;
+            margin-left: 10px;
+        }
+    </style>
+    <div class="big-div">
+        <div class="parent-div">
+            <div>
+                <p class="inbox-text">ALL INBOXES</p>
+            </div>
+            <div class="profile-div">
+                <div>
+                    <img src="img1.jpg">
+                </div>
+                <div class="profile">
+                    <div class="flex-div">
+                        <p class="title-text">Chewy Promotions</p>
+                        <span>4:58 PM</span>
+                    </div>
+                    <p class="under-title-text">Biggest sales of the year!</p>
+                    <p class="message-text">Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+    
+        <div class="parent-div">
+           
+            <div class="profile-div">
+                <div>
+                    <img src="img3.jpg">
+                </div>
+                <div class="profile">
+                    <div class="flex-div">
+                        <p class="title-text">Best Buy</p>
+                        <span>12:32 PM</span>
+                    </div>
+                    <p class="under-title-text">Your Best Buy eReceipt</p>
+                    <p class="message-text">Thank you for shopping at Best Buy,here is...</p>
+                </div>
+            </div>
+
+        <div class="parent-div">
+           
+            <div class="profile-div">
+                <div>
+                    <img src="img4.png">
+                </div>
+                <div class="profile">
+                    <div class="flex-div">
+                        <p class="title-text">Netflix</p>
+                        <span>4:58 PM</span>
+                    </div>
+                   
+                    <p class="under-title-text">Here's what's coming soon to Netflix</p>
+                    <p class="message-text">Brand new movies and shows, old favourites</p>
+                </div>
+            </div>
+    </div>
+    
+
+        
+    </div>
+</body>
+</html>
